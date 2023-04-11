@@ -1,0 +1,66 @@
+/* 부트스트랩 픽스 */
+.w-100 {
+    max-width: 50%;
+    margin: auto;
+}
+
+/* 미세조정 */
+header {
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+
+.s_con {
+    padding-top: 40px;
+}
+
+/* 사이드 버튼 */
+.side_btn {
+    list-style: none;
+    position: fixed;
+    right: 10%;
+    bottom: 50%;
+    padding: 10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* appList */
+ul {
+    padding: 0px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.applist {
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.applist .gray-con {
+    padding: 20px;
+    background: #f2f2f2;
+}
+.applist .app-text {
+    padding: 30px;
+    background: #fff;
+    overflow: auto;
+    line-height: 25px;
+}
+
+/* card */
+
+.card {
+  width: 20%;
+  min-width: 220px;
+  display: inline-block;
+  margin: 1%;
+  min-height: 360px;
+}
